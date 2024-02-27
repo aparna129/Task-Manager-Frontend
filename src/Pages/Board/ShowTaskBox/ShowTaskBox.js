@@ -41,7 +41,7 @@ function ShowTaskBox({
   };
 
   const handleShareClick = () => {
-    const link = `http://localhost:3000/task/${task._id}`;
+    const link = `https://project-task-manager-aparna.netlify.app/task/${task._id}`;
     navigator.clipboard.writeText(link).then(() => {
       toast.success("Link copied to clipboard");
       setIsEditDeletePopupOpen(false);
