@@ -11,7 +11,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const baseUrl = "http://localhost:4000/";
+  const baseUrl = "https://task-manager-backend-gcte.onrender.com/";
 
   localStorage.setItem("baseUrl", baseUrl);
 
