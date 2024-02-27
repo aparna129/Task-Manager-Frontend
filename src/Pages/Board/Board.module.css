@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.boardPage {
+  display: flex;
+  overflow: hidden;
+}
+.sideHeader {
+  height: 100vh;
+  width: 18vw;
+  border-right: 2.5px solid #edf5fe;
+}
+.rightSide {
+  height: 100vh;
+  width: 82vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2vw;
+}
+.name {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 3vh;
+  margin-left: 1.8vw;
+}
+.date {
+  color: #707070;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 3.8vh;
+  margin-right: 2vw;
+}
+.boardText {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 1.5vh;
+  margin-left: 1.8vw;
+}
+.thisWeekSection {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 1.5vh;
+  margin-left: 6.5vw;
+  margin-right: 2vw;
+  border: none;
+  cursor: pointer;
+}
+.boxSection {
+  display: flex;
+  gap: 1.25vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-left: 1.8vw;
+  margin-top: 3vh;
+  margin-right: 2vw;
+  height: 80vh;
+  margin-bottom: 2vh;
+}
+.box {
+  flex: 0 0 auto;
+  height: 75vh;
+  width: 23vw;
+  background-color: #eef2f5;
+  border-radius: 10px;
+  overflow: auto;
+}
+.headingSection {
+  display: flex;
+}
+.phaseText {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 2vh;
+  margin-left: 1.5vw;
+  width: 16vw;
+}
+.expandcollapseicon {
+  height: 3.3vh;
+  width: 1.5vw;
+  margin-top: 2.5vh;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+.expandcollapseicon2 {
+  height: 3.3vh;
+  width: 1.5vw;
+  margin-top: 2.5vh;
+  margin-right: 1vw;
+  cursor: pointer;
+  margin-left: 2.6vw;
+}
+.plusicon {
+  height: 3vh;
+  width: 1.5vw;
+  margin-top: 2.7vh;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+.allTasks {
+  margin-top: 3vh;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #303d4355;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  font-size: 1.3rem;
+  color: red;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 0.9vw;
+  height: 2vh;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8daab980;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid transparent;
+}
+
+.loaderContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loaderBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}

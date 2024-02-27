@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.sideHeaderContainer {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+.flex {
+  display: flex;
+}
+.board {
+  display: flex;
+  cursor: pointer;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.analytics {
+  display: flex;
+  cursor: pointer;
+  margin-top: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.settings {
+  display: flex;
+  cursor: pointer;
+  margin-top: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.logout {
+  display: flex;
+  cursor: pointer;
+}
+.firstSection {
+  height: 7vh;
+  padding-top: 7vh;
+}
+.secondSection {
+  margin-top: 5vh;
+  height: 60vh;
+  color: #707070;
+}
+.thirdSection {
+  margin-top: 5vh;
+  height: 15vh;
+  color: #cf3636;
+}
+.icons {
+  height: 5vh;
+  width: 2.5vw;
+  margin-left: 2.2vw;
+}
+.textProManage {
+  margin-left: 1vw;
+  font-weight: 700;
+}
+.text {
+  margin-left: 1vw;
+  font-weight: 500;
+}
+

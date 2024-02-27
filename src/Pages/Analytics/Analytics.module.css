@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.analyticsPage {
+  display: flex;
+}
+.sideHeader {
+  height: 100vh;
+  width: 18vw;
+  border-right: 2.5px solid #edf5fe;
+}
+.analyticsText {
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 7vh;
+  margin-left: 3vw;
+}
+.taskSection {
+  display: flex;
+  margin-top: 5vh;
+  margin-left: 3vw;
+  gap: 1vw;
+}
+.taskBox {
+  background-color: #f9fcff;
+  border-radius: 12px;
+  width: 30vw;
+  height: 37vh;
+}
+.taskList {
+  position: absolute;
+  margin-left: 3.5vw;
+  color: black;
+}
+.listItems::marker {
+  color: #90c4cc;
+}
+.listItems {
+  margin-top: 4vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  width: 22.5vw;
+}
+.flex {
+  display: flex;
+}
+.count {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-top: 4vh;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #303d4355;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  color: red;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  font-size: 1.3rem;
+}
+
+.loaderContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loaderBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}

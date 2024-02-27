@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media only screen and (min-width: 769px) {
+  .outerBox {
+    height: 100vh;
+    width: 100vw;
+  }
+  .flex {
+    display: flex;
+  }
+  .icons {
+    height: 3.5vh;
+    width: 1.8vw;
+    margin-left: 3vw;
+    margin-top: 4.5vh;
+  }
+  .textProManage {
+    margin-top: 4.28vh;
+    margin-left: 1vw;
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .innerBox {
+    height: 81vh;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 0.5vh;
+    margin-bottom: 17vh;
+    border-radius: 12px;
+    border: 2px solid #edf5fe;
+  }
+  .priority {
+    display: flex;
+    margin-top: 7vh;
+    margin-left: 2vw;
+    height: 2vh;
+  }
+  .circles {
+    height: 2vh;
+    width: 1vw;
+    border-radius: 100%;
+  }
+  .priorityText {
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    height: 2vh;
+    line-height: 2vh;
+    margin-top: 0.25vh;
+    margin-left: 0.6vw;
+  }
+  .name {
+    color: #000000;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+  .checklist {
+    color: #000000;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    font-size: 1.1rem;
+  }
+  .dateSection {
+    display: flex;
+    margin-left: 2vw;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    gap: 1vw;
+    height: 6vh;
+  }
+  .dueDate {
+    line-height: 6vh;
+    margin-top: 0.2vh;
+  }
+  .date {
+    height: 5.5vh;
+    line-height: 5.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: #cf3636;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 0.5vh;
+  }
+  .checklistArray {
+    max-height: 42vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .inputContainer {
+    position: relative;
+  }
+  .inputBox {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    width: 41.5vw;
+    margin-left: 2vw;
+    border-radius: 12px;
+    border: 2px solid #e2e2e2;
+    margin-top: 3vh;
+    margin-right: 3vw;
+    padding-left: 3.5vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    outline: none;
+  }
+  .checkbox {
+    position: absolute;
+    margin-left: 2.5vw;
+    top: 50%;
+    height: 3vh;
+    width: 3vw;
+  }
+  .loading {
+    line-height: 100vh;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+  }
+  .taskNotFound {
+    line-height: 100vh;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: red;
+    font-size: 3rem;
+  }
+  .loaderContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .loaderBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .outerBox {
+    height: 100vh;
+    width: 100vw;
+  }
+  .flex {
+    display: flex;
+  }
+  .icons {
+    height: 4.5vh;
+    width: 10vw;
+    margin-left: 8vw;
+    margin-top: 5vh;
+  }
+  .textProManage {
+    margin-top: 5.3vh;
+    margin-left: 5vw;
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .innerBox {
+    height: 80vh;
+    width: 84vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 4vh;
+    margin-bottom: 17vh;
+    border-radius: 20px;
+    border: 2px solid #edf5fe;
+  }
+  .priority {
+    display: flex;
+    margin-top: 4vh;
+    margin-left: 5.5vw;
+    height: 1.8vh;
+  }
+  .circles {
+    height: 1.8vh;
+    width: 4vw;
+    border-radius: 100%;
+  }
+  .priorityText {
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    height: 1.8vh;
+    line-height: 1.8vh;
+    margin-top: 0.1vh;
+    margin-left: 2vw;
+  }
+  .name {
+    color: #000000;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    margin-left: 5.5vw;
+    margin-top: 2vh;
+  }
+  .checklist {
+    color: #000000;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-left: 5.5vw;
+    margin-top: 3vh;
+    font-size: 1.1rem;
+  }
+  .dateSection {
+    display: flex;
+    margin-left: 5.5vw;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    gap: 5vw;
+    height: 6vh;
+  }
+  .dueDate {
+    line-height: 6vh;
+    margin-top: 0.2vh;
+  }
+  .date {
+    height: 5vh;
+    line-height: 5vh;
+    width: 28vw;
+    background-color: #cf3636;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 0.7vh;
+  }
+  .checklistArray {
+    max-height: 42vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .inputContainer {
+    position: relative;
+  }
+  .inputBox {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    width: 60vw;
+    margin-left: 5.5vw;
+    border-radius: 12px;
+    border: 2px solid #e2e2e2;
+    margin-top: 3vh;
+    margin-right: 7vw;
+    padding-left: 12vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    outline: none;
+  }
+  .checkbox {
+    position: absolute;
+    margin-left: 10vw;
+    top: 38%;
+    width: 5.5vw;
+    height: 5.5vh;
+  }
+  .loading {
+    margin-top: 43vh;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  .taskNotFound {
+    margin-top: 43vh;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: red;
+    font-size: 2rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  .loaderContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .loaderBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
