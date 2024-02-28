@@ -20,7 +20,7 @@ function CreateTaskPopup({
 
   const [checklistArray, setChecklistArray] = useState(task.checklistArray);
 
-  const [dueDate, setDueDate] = useState(null);
+  const [dueDate, setDueDate] = useState(task.dueDate ? task.dueDate : null);
 
   const handlePriority = (value) => {
     setPriority(value);
