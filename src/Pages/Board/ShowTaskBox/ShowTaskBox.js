@@ -126,11 +126,8 @@ function ShowTaskBox({
         </div>
       </div>
 
-      <p className={styles.taskName}>
-        {task.name.length > 12 ? `${task.name.slice(0, 12)}...` : task.name}
-        {task.name.length > 12 && (
-          <span className={styles.fullname}>{task.name}</span>
-        )}
+      <p className={styles.taskName} title={task.name}>
+        {task.name}
       </p>
 
       <div className={styles.checklistSection}>

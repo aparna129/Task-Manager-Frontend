@@ -44,19 +44,20 @@
   font-weight: 500;
   font-size: 1.3rem;
   margin-top: 0.1vh;
+  max-width: 15vw;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.taskName:hover .fullname {
-  display: inline;
+.taskName:hover {
+  max-width: none; 
 }
 .fullname {
   display: none;
   position: absolute;
   background-color: #ffffff;
   border: 1px solid #ccc;
-  padding: 5px;
+  padding: 2px;
 }
 .checklistSection {
   margin-top: 0.85vh;
