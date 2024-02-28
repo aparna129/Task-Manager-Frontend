@@ -44,6 +44,19 @@
   font-weight: 500;
   font-size: 1.3rem;
   margin-top: 0.1vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.taskName:hover .fullname {
+  display: inline;
+}
+.fullname {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 5px;
 }
 .checklistSection {
   margin-top: 0.85vh;

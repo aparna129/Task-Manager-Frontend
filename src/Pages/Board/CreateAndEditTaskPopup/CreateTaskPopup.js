@@ -214,7 +214,9 @@ function CreateTaskPopup({ setIsAddTaskBtnClicked }) {
           selected={dueDate}
           onChange={(date) => setDueDate(date)}
           placeholderText="Select Due Date"
+          popperClassName={styles.customPopper}
           className={styles.dueDateBtn}
+          showYearDropdown
         />
         <button onClick={handleCancelBtn} className={styles.cancelBtn}>
           Cancel
